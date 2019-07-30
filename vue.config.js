@@ -1,4 +1,5 @@
 module.exports = {
+  publicPath: '/rainbowCat/',
   productionSourceMap: false,
   chainWebpack: config => {
     config.module

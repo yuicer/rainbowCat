@@ -1,15 +1,17 @@
 {
   "name": "rainbow_cat",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "core-js": "^3.1.2",
     "eslint-plugin-prettier": "^3.1.0",
+    "gh-pages": "^2.0.1",
     "phaser": "^3.18.1",
     "vue": "^2.6.10"
   },
